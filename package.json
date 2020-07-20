@@ -1,0 +1,22 @@
+{
+  "name": "contributors",
+  "version": "1.0.0",
+  "description": "All contributors of NexT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-theme/contributors.git"
+  },
+  "author": "Mimi <stevenjoezhang@gmail.com> (https://zhangshuqiao.org)",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/next-theme/contributors/issues"
+  },
+  "homepage": "https://github.com/next-theme/contributors#readme",
+  "dependencies": {
+    "sharp": "^0.25.4"
+  }
+}
