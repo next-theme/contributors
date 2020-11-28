@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/next-theme/contributors.git"
-  },
+  "repository": "next-theme/contributors",
   "author": "Mimi <stevenjoezhang@gmail.com> (https://zhangshuqiao.org)",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
