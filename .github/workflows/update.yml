@@ -1,0 +1,27 @@
+name: Update
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+      - run: npm install
+      - run: node index.js
+      - name: Config
+        run: |
+          git config --global user.name 'Mimi'
+          git config --global user.email 'stevenjoezhang@users.noreply.github.com'
+      - name: Commit
+        run: |
+          git add contributors.svg
+          git commit -m 'Update contributors.svg'
+      - name: Push
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
