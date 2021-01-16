@@ -13,8 +13,6 @@ $ npm install
 ## Run
 
 ```
-$ export ID=Client ID
-$ export SECRET=Client Secret
 $ node index.js
 ```
 
