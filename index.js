@@ -1,7 +1,7 @@
-const https = require('https');
-const fs = require('fs');
-const download = require('./lib/avatar');
-const image = require('./lib/image');
+import https from 'https';
+import fs from 'fs';
+import download from './lib/avatar.js';
+import image from './lib/image.js';
 
 function request(repo, query = '') {
   return new Promise((resolve, reject) => {
