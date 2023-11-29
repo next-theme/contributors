@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/next-theme/contributors#readme",
   "dependencies": {
-    "sharp": "^0.31.0"
+    "sharp": "^0.33.0"
   }
 }
