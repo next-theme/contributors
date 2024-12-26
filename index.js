@@ -46,6 +46,7 @@ async function request(repo, query = '') {
 }
 
 function parse(contributors) {
+  const db = [];
   contributors.forEach(({ login, avatar_url, type, contributions }) => {
     if (type === 'Bot') return;
     const target = db.find(item => item.login === login);
