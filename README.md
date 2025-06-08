@@ -5,15 +5,15 @@
 ## Install
 
 ```
-$ git clone https://github.com/next-theme/contributors
-$ cd contributors
-$ npm install
+git clone https://github.com/next-theme/contributors
+cd contributors
+npm install
 ```
 
 ## Run
 
 ```
-$ node index.js
+node index.js
 ```
 
 ## Data
